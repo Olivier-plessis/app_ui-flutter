@@ -15,7 +15,7 @@ final ThemeData lightTheme = FlexThemeData.light(
   useMaterial3: true,
   blendLevel: 5,
   appBarOpacity: 0.95,
-  appBarBackground: const Color(0xff872100),
+  appBarBackground: ColorTheme.mainLightColor,
   surfaceTint: const Color(0xfffef5dd),
   surface: ColorTheme.mainPurpleColor,
   subThemesData: const FlexSubThemesData(
@@ -48,7 +48,10 @@ final ThemeData darkTheme = FlexThemeData.dark(
   useMaterial3: true,
   blendLevel: 5,
   appBarStyle: FlexAppBarStyle.background,
-  appBarOpacity: 0.90,
+  appBarOpacity: 0.95,
+  appBarBackground: ColorTheme.mainLightColor,
+  surfaceTint: const Color(0xfffef5dd),
+  surface: ColorTheme.mainPurpleColor,
   subThemesData: const FlexSubThemesData(
     blendOnLevel: 6,
     textButtonRadius: 16,

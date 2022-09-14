@@ -16,6 +16,8 @@ dependencies:
   cupertino_icons: ^1.0.5
   flutter_screenutil: ^5.5.4
   flex_color_scheme: ^6.0.0
+  shimmer: ^2.0.0
+  gap: ^2.0.0
 
 dev_dependencies:
   flutter_test:
