@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:app_ui/src/theme/colors.dart';
 import 'package:app_ui/src/typography/typography.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 /*
 *  Main theme typography
@@ -14,7 +14,7 @@ class StyleTheme {
   static const TextStyle _baseLargeTextStyle = TextStyle(
     package: 'app_ui',
     fontFamily: FontFamilyTheme.mainFont,
-    color: ColorTheme.mainDarkColor,
+    color: ColorTheme.secondaryColor,
     fontWeight: FontWeightTheme.regular,
   );
 
@@ -94,7 +94,7 @@ class StyleTheme {
         fontSize: ScreenUtil().setSp(FontSizeTheme.bodyMedium),
         fontWeight: FontWeightTheme.regular,
         decoration: TextDecoration.underline,
-        color: ColorTheme.mainPurpleColor);
+        color: ColorTheme.secondaryColor);
   }
 
   /// Button Text Style
@@ -198,7 +198,7 @@ class DarkStyleTheme {
         fontSize: ScreenUtil().setSp(FontSizeTheme.bodyMedium),
         fontWeight: FontWeightTheme.regular,
         decoration: TextDecoration.underline,
-        color: ColorTheme.mainPurpleColor);
+        color: ColorTheme.secondaryColor);
   }
 
   /// Button Text Style

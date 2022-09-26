@@ -9,7 +9,7 @@ class AppShimmer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Shimmer.fromColors(
-        baseColor: ColorTheme.mainPurpleColor,
+        baseColor: ColorTheme.secondaryColor,
         highlightColor: Colors.grey.shade100,
         child: SingleChildScrollView(
           physics: const NeverScrollableScrollPhysics(),
