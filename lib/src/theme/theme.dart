@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 final ThemeData lightTheme = FlexThemeData.light(
   colors: const FlexSchemeColor(
     primary: ColorTheme.primaryColor,
-    secondary: ColorTheme.secondaryColor,
     primaryContainer: ColorTheme.mainLightColor,
+    secondary: ColorTheme.secondaryColor,
     secondaryContainer: Color(0xffffeeee),
     tertiary: ColorTheme.secondaryColor,
     tertiaryContainer: Color(0xfffef5dd),
